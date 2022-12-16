@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Process Synchronization.iml" filepath="$PROJECT_DIR$/Process Synchronization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Process-Synchronization-Lab6.iml" filepath="$PROJECT_DIR$/Process-Synchronization-Lab6.iml" />
     </modules>
   </component>
 </project>
