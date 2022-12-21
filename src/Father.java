@@ -1,19 +1,20 @@
 
+import java.time.Instant;
+
 public class Father extends Thread {
 
-    // Create a private BankAccount variable named account
     private BankAccount account;
 
-    // Create a non-default constructor that takes a BankAccount parameter named account
     public Father(BankAccount account) {
-        // In the constructor, initialize the account variable with the account parameter
         this.account = account;
     }
 
-    // Override the run method
     @Override
     public void run() {
-        // In the method, call the deposit method of the account variable with 1000.0 as the parameter
+        System.out.println("Father is depositing " + account.getBalance() + " " + Instant.now());
+
         account.deposit(1000.0);
+
+        System.out.println("Father is done depositing " + Instant.now());
     }
 }
